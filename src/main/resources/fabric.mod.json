@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "tacsdebug",
+  "version": "${version}",
+  "name": "Tacsdebug",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/tacsdebug/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "supercoder79.tacsdebug.client.TacsdebugClient"
+    ],
+    "main": [
+      "supercoder79.tacsdebug.Tacsdebug"
+    ]
+  },
+  "mixins": [
+    "tacsdebug.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "minecraft": "1.16.5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "supercoder79.tacsdebug.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinDebugRenderer",
+    "MixinTACS"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
